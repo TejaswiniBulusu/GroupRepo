@@ -1,0 +1,75 @@
+    1  ls
+    2  cd 01_Practical_C++_Design/A_Clean_Code/after/
+    3  ls
+    4  mkdir build && cd build
+    5  cmake ..
+    6  cmake --build .
+    7  ctest
+    8  ./Debug/option_pricing_demo_test.exe 
+    9  pwd
+   10  cd /c/course
+   11  mkdir git
+   12  cd git
+   13  git init
+   14  git status
+   15  git add file1.txt
+   16  touch file1.txt
+   17  git status
+   18  git add file1.txt
+   19  git status
+   20  git diff
+   21  git log
+   22  git add file1.txt
+   23  touch file2.txt
+   24  git add file2.txt
+   25  git commit -m "THis is First Commit"
+   26  git config --global user.name "AnuSree-1729"
+   27  git config --global user.email "klanantha243@gmail.com"
+   28  git add --help
+   29  git status
+   30  git commit -m "THis is my First Commit"
+   31  git status
+   32  git diff
+   33  git push
+   34  git push course
+   35  git push --help
+   36  git help push
+   37  git --help push
+   38  git commit
+   39  git status
+   40  git commit
+   41  git commit -m "Updated file1.txt"
+   42  git status
+   43  git add file1.txt
+   44  git commit -m "Updated file1.txt"
+   45  git status
+   46  git push
+   47  git log
+   48  gitk
+   49  git diff
+   50  git diff --staged
+   51  git add file2.txt
+   52  git diff
+   53  git diff --staged
+   54  git commit -m "Updated file2"
+   55  git remote add origin https://github.com/AnuSree-1729/GitDemo.git
+   56  git remote add origin https://github.com/AnuSree-1729/GitDemo.git
+   57  git push -u origin master
+   58  git help add
+   59  git help push
+   60  git help -all
+   61  git help --all
+   62  git shortlog
+   63  git show
+   64  git branch firstBranch
+   65  git status
+   66  gitk
+   67  git branch
+   68  git checkout firstBranch
+   69  git branch
+   70  gitk
+   71  git checkout master
+   72  git branch
+   73  git history
+   74  history
+   75  history > git_history.txt
