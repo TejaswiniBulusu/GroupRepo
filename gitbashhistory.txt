@@ -1,0 +1,132 @@
+    1  ls
+    2  cd 01_Practical_C++_Design/A_Clean_Code/after/
+    3  ls
+    4  mkdir build && cd build
+    5  cmake ..
+    6  cmake --build .
+    7  ctest
+    8  ./Debug/option_pricing_demo_test.exe 
+    9  git config --global user.name "TejaswiniBulusu"
+   10  pwd
+   11  cd /c/course
+   12  mkdir demo1
+   13  cd demo1/
+   14  dir
+   15  git init
+   16  git status
+   17  git add Readme.txt
+   18  git status
+   19  touch Readme.txt
+   20  ls
+   21  git add Readme.txt
+   22  git status
+   23  git commit
+   24  git config --global user.email "tejaswinibulusu@gmail.com"
+   25  git commit
+   26  git status
+   27  git diff
+   28  touch demo.java
+   29  git add demo.java
+   30  git status
+   31  git diff --staged
+   32  git diff --staged
+   33  git commit
+   34  git log
+   35  gitk
+   36  git push
+   37  git status
+   38  git add demo.txt
+   39  touch demo.txt
+   40  git add demo.txt
+   41  git commit
+   42  git push
+   43  git status
+   44  git add demo.java
+   45  git status
+   46  git commit
+   47  git commit -m "Commit message"
+   48  git push
+   49  git status
+   50  git diff
+   51  git diff --staged
+   52  git status
+   53  git push
+   54  git log
+   55  git remote add origin https://github.com/TejaswiniBulusu/GitSampleRepo.git
+   56  git push -u origin main
+   57  git branch
+   58  git push -u origin master
+   59  git pull
+   60  git mv demo.txt demonstration.txt
+   61  git status
+   62  git commit -m "name of file changed to demonstration"
+   63  git push -u origin master
+   64  git branch branchname1
+   65  gitk
+   66  git checkout branchname1
+   67  gitk
+   68  git checkout master
+   69  touch file01.txt
+   70  git add file01.txt
+   71  touch  file02.txt
+   72  git add file02.txt
+   73  checkout -b req1
+   74  git checkout -b req1
+   75  git commit a -m "Changes made, omw to raise a conflict"
+   76  git commit -a -m "Changes made, omw to raise a conflict"
+   77  git checkout master
+   78  git checkout -b bugfix007
+   79  git push -u origin master
+   80  git branch branchname1
+   81  git remote add origin https://github.com/TejaswiniBulusu/GitSampleRepo.git
+   82  git branch br1
+   83  cd /br1
+   84  cd br1
+   85  git branch
+   86  git checkout master
+   87  git push -u origin master
+   88  git checkout req1
+   89  git push -u origin req1
+   90  git merge br1
+   91  git checkout master
+   92  git merge br1
+   93  git checkout req1
+   94  echo "new change" >> file01.txt
+   95  git add file01.txt
+   96  git commit -m "updated file01.txt in req1"
+   97  git checkout master
+   98  git merge req1
+   99  git push origin master
+  100  git commit -m "updated file01.txt in req1"
+  101  git checkout master
+  102  echo "master change" > file01.txt
+  103  git commit -m "modified file01.txt in master"
+  104  git merge req1
+  105  git add file01.txt
+  106  git commit -m "strugglinnn"
+  107  git checkout req1
+  108  git status
+  109  git checkout master
+  110  git merge req1
+  111  git status
+  112  git add file01.txt
+  113  git commit -m "strugglin2"
+  114  git checkout master
+  115  git merge req1
+  116  git log --online --graph --decorate --all
+  117  git log --oneline --graph --decorate --all
+  118* git checkout req1>
+  119  echo "req1 change" > file01.txt
+  120  git add file01.txt
+  121  git commit -m "change file01.txt in req1"
+  122  git checkout master
+  123  echo "master change" > file01.txt
+  124  git add file01.txt
+  125  git commit -m "change file01 in master"
+  126  git push
+  127  git merge req1
+  128  git status
+  129  git log
+  130  gitk
+  131  history
+  132  history > gitbashhistory.txt
